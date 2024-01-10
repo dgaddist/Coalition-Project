@@ -1,0 +1,123 @@
+body.home {
+  background-image: url("./images/LA-mountatin.png");
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.logo-img {
+  padding-right: 50px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+.links-container {
+  margin-top: 30px;
+}
+
+.history-link {
+  padding-right: 50px;
+}
+.history-link,
+.team-link {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.history-link:hover,
+.team-link:hover {
+  cursor: pointer;
+}
+.history-link:visited,
+.team-link:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+/* history page page #2 */
+body.history {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.team2-link {
+  margin-left: 40px;
+}
+
+.team2-link,
+.history2-link,
+.team2-link:visited,
+.history2-link:visited {
+  color: #475571;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 4;
+  font-weight: 600;
+}
+
+.team2-link:hover,
+.history2-link:hover {
+  cursor: pointer;
+}
+.history-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.history-img {
+  width: 1880px;
+}
+
+/* climb page #3 */
+body.climb {
+  background-image: url("./images/ending-mountain.png");
+  background-size: 2000px 1000px;
+}
+
+.home-link {
+  color: #475571;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 4;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* slideshow */
+
+.slideshow-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow-x: scroll;
+}
+
+/* dot styling */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
