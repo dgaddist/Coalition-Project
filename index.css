@@ -74,30 +74,14 @@ body.history {
   width: 1880px;
 }
 
-/* climb page #3 */
-body.climb {
-  background-image: url("./images/ending-mountain.png");
-  background-size: 2000px 1000px;
-}
-
-.home-link {
-  color: #475571;
-  text-decoration: underline;
-  font-size: 16px;
-  font-weight: 4;
-  font-weight: 600;
-  font-family: "Times New Roman", Times, serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 /* slideshow */
+.carousel-img {
+  padding-right: 10px;
+}
 
 .slideshow-container {
   width: 100%;
-  height: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,11 +97,37 @@ body.climb {
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
   transition: 0.6s ease;
+  display: inline-block;
+}
+.three-dots {
+  display: flex;
+  justify-content: center;
 }
 
 .active,
 .dot:hover {
   background-color: #717171;
+}
+
+/* climb page #3 */
+body.climb {
+  background-image: url("./images/ending-mountain.png");
+  background-size: 2000px 1000px;
+}
+
+.home-link {
+  color: #475571;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 4;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+* {
+  box-sizing: border-box;
 }
